@@ -28,8 +28,7 @@ public class Panda {
      * "match" (El panda sí tiene menos de 5), caso contrario se muestra
      * "not match" (El panta tiene más de 5)
      *
-     * En resumen: EL RESULTADO DE LA SIGUIENTE CLASE
-     * ES MATCH
+     * RESPUESTA: EL RESULTADO ES MATCH
      *
      */
 

@@ -14,9 +14,19 @@ interface Climb{
 }
 
 public class Climber {
+
+    /**
+     * RESPUESTA:
+     * El código tiene un error en la línea donde se ha escrito
+     * "h.append(m)". Este error ocurre, porque el método append
+     * es de la clase String y el parámetro "h" es un entero al igual que
+     * el parámetro m
+     */
+
     public static void main(String[] args) {
         check((h, m) -> h.append(m).isEmpty(), 5);
     }
+
     private static void check(Climb climb, int height) {
         if (climb.isTooHigh(height, 10)){
             System.out.println("too high");
