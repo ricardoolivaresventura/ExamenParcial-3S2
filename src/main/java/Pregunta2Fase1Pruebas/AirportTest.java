@@ -8,6 +8,32 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ *
+ * Pregunta 2.2. Si ejecutamos las pruebas con cobertura
+ * desde Intellij IDEA. ¿Cuáles son los resultados que se muestran?
+ * ¿Por qué crees que la cobertura del código no es del 100%?
+ *
+ * - Al inicio el test fallaba, ya que, se estaba creando un vuelo de tipo "Business",
+ * pero la clase Flight, solo soporta en español (Económio y Negocios)
+ *
+ * - Luego de este cambio y ejecutando los test with coverage, obtenemos
+ * un cogera de Class(100%), Method(100%) y Line(100%). Este resultado del 100%, nos dice
+ * que con estas pruebas unitarias estamos cubriendo todo el código
+ */
+
+/**
+ * Pregunta 2.3. ¿Por qué John tiene la necesidad de refactorizar la aplicación?
+ * La refactorización es muy importante en el desarrollo de aplicaciones, sobre todo
+ * en este caso que se trata de un software de gestión de vuelos, el cual
+ * cuenta con mucha información sensible. Y debido a que los
+ * desarrolladores anteriores programaron sin pruebas unitarias, entonces
+ * cabe la posibilidad de que dicho código falle en muchos otros
+ * escenarios. Por ello, la refactorización en este caso sería
+ * muy valiosa, además de esta manera se puede evitar que salgar issues
+ * en producción.
+ */
+
 public class AirportTest {
 
     @DisplayName("Dado que hay un vuelo economico")
@@ -55,7 +81,7 @@ public class AirportTest {
 
         @BeforeEach
         void setUp() {
-            businessFlight = new Flight("2", "Business");
+            businessFlight = new Flight("2", "Negocios");
         }
 
         @Test
