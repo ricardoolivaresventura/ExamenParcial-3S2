@@ -2,7 +2,7 @@ package org.example;
 import java.util.function.*;
 
 /**
- * Pregunta 1:
+ * Pregunta 1.a:
  * ¿Cuál es el resultado de la siguiente clase?
  */
 
