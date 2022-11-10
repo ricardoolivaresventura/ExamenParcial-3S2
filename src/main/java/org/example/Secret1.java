@@ -11,12 +11,13 @@ interface Secret{
 }
 
 public class Secret1 implements Secret{
-    public String magic(double d){
-        return "Poof";
-    }
 
     public static void main(String[] args) {
 
     }
 
+    @Override
+    public String magic(double d) {
+        return "Poog";
+    }
 }

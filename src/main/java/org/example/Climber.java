@@ -24,7 +24,7 @@ public class Climber {
      */
 
     public static void main(String[] args) {
-        check((h, m) -> h.append(m).isEmpty(), 5);
+        // check((h, m) -> h.append(m).isEmpty(), 5);
     }
 
     private static void check(Climb climb, int height) {
