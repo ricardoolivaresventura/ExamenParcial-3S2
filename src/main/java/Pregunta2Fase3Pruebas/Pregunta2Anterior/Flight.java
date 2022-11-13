@@ -1,4 +1,4 @@
-package Pregunta2Anterior;
+package Pregunta2Fase3Pruebas.Pregunta2Anterior;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

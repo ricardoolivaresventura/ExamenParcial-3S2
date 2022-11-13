@@ -1,4 +1,4 @@
-package Pregunta2Anterior;
+package Pregunta2Fase3Pruebas.Pregunta2Anterior;
 
 public class Airport {
     public static void main(String[] args) {

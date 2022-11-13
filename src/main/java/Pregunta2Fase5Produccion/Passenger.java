@@ -1,4 +1,4 @@
-package Pregunta2Anterior;
+package Pregunta2Fase5Produccion;
 
 public class Passenger {
 

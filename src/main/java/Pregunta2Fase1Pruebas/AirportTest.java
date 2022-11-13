@@ -1,6 +1,6 @@
 package Pregunta2Fase1Pruebas;
-import Pregunta2Anterior.Flight;
-import Pregunta2Anterior.Passenger;
+import Pregunta2Fase3Pruebas.Pregunta2Anterior.Flight;
+import Pregunta2Fase3Pruebas.Pregunta2Anterior.Passenger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
