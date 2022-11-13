@@ -36,16 +36,15 @@ public class Airport {
          * ------------------------------------------
          *
          * Esto ocurrió porque César es un pasajero VIP, en cambio Jessica no.
-         * Por este motivo, a césar si se le pudo agregar al vuelo comercial,
+         * Por este motivo, a césar sí se le pudo agregar al vuelo de Negocios,
          * en cambio a Jessica no se le pudo agregar porque no es VIP.
          *
          * Además, vemos que en el código se intentó eliminar a césar del vuelo,
-         * pero como César es VIP, entonces no se le pude agregar.
+         * pero como César es VIP, entonces no se le pude eliminar.
          *
-         * También, vemos que a Jessica sí se le pudo agregar, pero al vuelo comercial
-         * dado que no es VIP.
+         * También, vemos que a Jessica sí se le pudo agregar al vuelo económico, ya que,
+         * para este tipo de vuelo no hay ninguna restricción
          *
          */
-
     }
 }

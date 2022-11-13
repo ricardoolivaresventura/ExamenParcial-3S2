@@ -13,13 +13,13 @@ public class RestoDeItemsPregunta1 {
     public void remove(List<Character> chars){
         /**
          * Este método busca eliminar aquellos elementos de la
-         * lista chars que cumplan que están después del caractér 'a'
-         * y antes del caractér 'z'
+         * lista chars que cumplan con la condición de estar después del caracter 'a'
+         * y antes del caracter 'z'
          */
         char end = 'a';
         boolean result = chars.removeIf(c -> {
             char start = 'a'; return start <= c && c <= end; });
-        //Insetar código
+        //Insertar código
         if(result){
             System.out.println("Se eliminaron algunos elementos: "+chars);
         }
@@ -49,14 +49,14 @@ public class RestoDeItemsPregunta1 {
         }
 
         /**
-         * La interfaz supplier no toma ningún argumento, pero producto algún
+         * La interfaz supplier no toma ningún argumento, pero genera algún
          * valor de tipo T
          *
          * A: En este caso, la interfaz supplier va a generar un valor de tipo Integer,
          * el cual es "length"
          * B: Luego, obtenemos dicho valor usando el método .get()
          *
-         * C: En esta caso es similar que en el caso "A", con la diferencia
+         * C: En este caso es similar que en el caso "A", con la diferencia
          * en que ahora el valor que se produce es el valor de "j"
          *
          * D: Luego, se obtiene el valor de "j" con .get() y se muestra por consola
@@ -71,8 +71,8 @@ public class RestoDeItemsPregunta1 {
     public void remove2(List<Character> chars){
         /**
          * Este método busca eliminar aquellos elementos de la
-         * lista chars que cumplan que están después del caractér 'a'
-         * y antes del caractér 'z'
+         * lista chars que cumplan con la condición de estar después del caracter 'a'
+         * y antes del caracter 'z'
          */
         char end = 'z';
         //Insertar código

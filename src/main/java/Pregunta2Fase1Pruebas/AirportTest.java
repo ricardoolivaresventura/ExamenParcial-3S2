@@ -15,11 +15,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * ¿Por qué crees que la cobertura del código no es del 100%?
  *
  * - Al inicio el test fallaba, ya que, se estaba creando un vuelo de tipo "Business",
- * pero la clase Flight, solo soporta en español (Económio y Negocios)
+ * pero la clase Flight solo soporta en español (Económio y Negocios)
  *
- * - Luego de este cambio y ejecutando los test with coverage, obtenemos
- * un cogera de Class(100%), Method(100%) y Line(100%). Este resultado del 100%, nos dice
- * que con estas pruebas unitarias estamos cubriendo todo el código
+ * - Luego de cambiar Business por Negocios y ejecutando los test with coverage, obtenemos
+ * un coverage de Class(100%), Method(100%) y Line(100%). Este resultado del 100%, nos dice
+ * que con estas pruebas unitarias estamos ejecutando el 100% del código fuente
  */
 
 /**
@@ -30,7 +30,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * desarrolladores anteriores programaron sin pruebas unitarias, entonces
  * cabe la posibilidad de que dicho código falle en muchos otros
  * escenarios. Por ello, la refactorización en este caso sería
- * muy valiosa, además de esta manera se puede evitar que salgar issues
+ * muy valioso, además de esta manera se puede evitar que salgan issues
  * en producción.
  */
 
