@@ -22,6 +22,6 @@ public class PremiumFlight extends Flight {
 
     @Override
     public boolean removePassenger(Passenger passenger) {
-        return false;
+        return true;
     }
 }
